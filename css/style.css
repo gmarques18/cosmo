@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #b9def9;
+  color: #000;
+  text-align: justify;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  font-family: "Montserrat", system-ui;
+  text-align: center;
+  font-style: normal;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat", system-ui;
+  text-align: center;
+  font-size: 25px;
+}
+a{
+  font-family: "Montserrat", system-ui;
+  text-decoration: none;
+  color: #002147;
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+a:hover{
+  text-decoration: underline;
+  }
+
+img {
+  border: 7px solid #002147;
+  text-align: center; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.cabeçalho{
+  padding: 1.5% 0% 1.5% 10%;
+  background-image: linear-gradient( #6b1e45,#3d85b8 );
+  border: solid;
+  border-color: #002147;
+}
+
+.cabeçalho_menu{
+  display: flex;
+  gap: 50px;
+}
+
+.cabeçalho_menu_link{
+  font-family: var(--fonte-titulo);
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--cor-titulo);
+  text-decoration: none;
+}
+
+.rodape{
+  margin-top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: var(--fonte-titulo);
+  background-image: linear-gradient( #6b1e45,#3d85b8 );
+  text-align: center;
+  border: solid;
+  border-color: #002147;
+}
